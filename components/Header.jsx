@@ -12,10 +12,14 @@ export default function Header() {
             backgroundRepeat: 'no-repeat'
         }}>
            <img
-                src="https://ankihsu.com/wp-content/uploads/2017/06/favicon.jpg"
+                src="https://ankihsu.com/wp-content/uploads/2017/07/LOGO.jpg"
                 style={{
                     width: '69px',
                     height: '69px',
+                    position: 'absolute',
+                    transform: 'translateX(-50%)',
+                    left: '50%',
+                    top: '45px'
                 }}
             />
         </div>
