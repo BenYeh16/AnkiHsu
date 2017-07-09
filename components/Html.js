@@ -11,7 +11,11 @@ export default function Html(props) {
             <link rel="icon" type="image/jpeg" href="https://ankihsu.com/wp-content/uploads/2017/06/favicon.jpg" />
         </head>
         <body style={{
-            margin: '0'
+            margin: '0',
+            backgroundImage: 'url(https://ankihsu.com/wp-content/uploads/2017/07/header-background.png)',
+            backgroundPosition: '50% 0%',
+            backgroundSize: '54%',
+            backgroundRepeat: 'no-repeat'
         }} >
             <div id="app" dangerouslySetInnerHTML={{__html: props.markup}}></div>
             <script dangerouslySetInnerHTML={{__html: props.state}}></script>
