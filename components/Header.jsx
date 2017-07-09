@@ -30,8 +30,8 @@ export default function Header() {
             <img 
                 src="https://ankihsu.com/wp-content/uploads/2017/07/FB.png"
                 style={{
-                    width: '29px',
-                    height: '29px',
+                    width: '35px',
+                    height: '35px',
                     position: 'absolute',
                     right: '135px',
                     top: '134px'
@@ -40,8 +40,8 @@ export default function Header() {
             <img 
                 src="https://ankihsu.com/wp-content/uploads/2017/07/instagram.png"
                 style={{
-                    width: '29.3px',
-                    height: '29.3px',
+                    width: '35px',
+                    height: '35px',
                     position: 'absolute',
                     right: '86.8px',
                     top: '134px'
