@@ -1,4 +1,5 @@
 import Home from '../components/Home';
+import MainPage from '../components/MainPage';
 import About from '../components/About';
 
 export default {
@@ -7,7 +8,7 @@ export default {
         method: 'get',
         page: 'home',
         title: 'Home',
-        handler: Home
+        handler: MainPage
     },
     about: {
         path: '/about',

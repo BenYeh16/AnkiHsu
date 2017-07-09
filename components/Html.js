@@ -10,7 +10,9 @@ export default function Html(props) {
             <meta name="viewport" content="width=device-width, user-scalable=no" />
             <link rel="icon" type="image/jpeg" href="https://ankihsu.com/wp-content/uploads/2017/06/favicon.jpg" />
         </head>
-        <body>
+        <body style={{
+            margin: '0'
+        }} >
             <div id="app" dangerouslySetInnerHTML={{__html: props.markup}}></div>
             <script dangerouslySetInnerHTML={{__html: props.state}}></script>
             <script src={'/public/js/' + props.clientFile}></script>
