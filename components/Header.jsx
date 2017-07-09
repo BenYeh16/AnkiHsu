@@ -19,7 +19,7 @@ class Header extends React.Component {
             <div style={{
                 position: 'relative',
                 width: '100%',
-                height: '293.5px'
+                height: '218px'
             }}>
                 <img
                     src="https://ankihsu.com/wp-content/uploads/2017/07/LOGO.png"
