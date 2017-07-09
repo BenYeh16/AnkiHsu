@@ -8,11 +8,13 @@ export default function Html(props) {
             <meta charSet="utf-8" />
             <title>{props.context.getStore(ApplicationStore).getPageTitle()}</title>
             <meta name="viewport" content="width=device-width, user-scalable=no" />
+            <link rel="icon" type="image/jpeg" href="https://ankihsu.com/wp-content/uploads/2017/06/favicon.jpg" />
         </head>
         <body>
             <div id="app" dangerouslySetInnerHTML={{__html: props.markup}}></div>
             <script dangerouslySetInnerHTML={{__html: props.state}}></script>
             <script src={'/public/js/' + props.clientFile}></script>
+
         </body>
         </html>
     );
