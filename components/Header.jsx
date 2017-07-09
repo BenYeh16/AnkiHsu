@@ -30,7 +30,7 @@ export default function Header() {
             <img 
                 src="https://ankihsu.com/wp-content/uploads/2017/07/FB.png"
                 style={{
-                    width: '13.5px',
+                    width: '29px',
                     height: '29px',
                     position: 'absolute',
                     right: '135px',
@@ -43,7 +43,7 @@ export default function Header() {
                     width: '29.3px',
                     height: '29.3px',
                     position: 'absolute',
-                    right: '29.3px',
+                    right: '86.8px',
                     top: '134px'
                 }}
             /> 
