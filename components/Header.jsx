@@ -14,6 +14,7 @@ class Header extends React.Component {
             facebookOnHover,
             instagramOnHover
         } = this.state;
+
         return (
             <div style={{
                 position: 'relative',
@@ -63,7 +64,7 @@ class Header extends React.Component {
                     }}
                     onMouseEnter={() => {this.setState({ instagramOnHover: true })}}
                     onMouseLeave={() => {this.setState({ instagramOnHover: false })}}
-                /> 
+                />
             </div>
         );
     }
