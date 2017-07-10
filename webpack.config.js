@@ -25,7 +25,12 @@ var webpackConfig = {
                     require.resolve('babel-loader')
                 ]
             },
-            { test: /\.json$/, loader: 'json-loader'}
+            { test: /\.json$/, loader: 'json-loader' },
+            {
+                test: /\.(js|jsx)?$/,
+                exclude: /(node_modules)/,
+                loader: 'webpack-atomizer-loader?configPath=' + __dirname + '/atomCssConfig.js!babel-loader'
+            },
         ]
     },
     node: {
