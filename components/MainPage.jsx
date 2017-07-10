@@ -4,8 +4,7 @@ import Menu from './Menu.jsx';
 
 export default function MainPage() {
     return (
-        <div>
-            <div className="Fz(100px)">Test Font Size</div>
+        <div className="Bgi(headerbackground) Bgpx(50%) Bgpy(0) Bgz(54%) Bgr(nr)">
             <Header />
             <Menu />
         </div>

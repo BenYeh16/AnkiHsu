@@ -15,7 +15,7 @@ import debugLib from 'debug';
 import React from 'react';
 import ReactDOM from 'react-dom/server';
 import app from './app';
-import HtmlComponent from './components/Html';
+import HtmlComponent from './components/Html.jsx';
 import { createElementWithContext } from 'fluxible-addons-react';
 const env = process.env.NODE_ENV;
 

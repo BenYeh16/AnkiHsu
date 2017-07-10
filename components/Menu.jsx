@@ -6,16 +6,7 @@ class Menu extends React.Component {
 
         return (
             <div>
-                <ul style={{
-                    listStyleType: 'none',
-                    display: 'flex',
-                    justifyContent: 'space-between',
-                    padding: '0',
-                    margin: '0 292px 0 292px',
-                    fontFamily: 'PingFangTC',
-                    color: '#4a4a4a',
-                    fontSize: '18px'
-                }}>
+                <ul className="D(f) List(n) Jc(sb) P(0) My(0) Mx(292px) C(#4a4a4a) Fz(18px)">
                 {
                     menuTitle.map((item) => 
                         <li>{item}</li>
