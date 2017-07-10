@@ -7,8 +7,7 @@
     "build": "webpack & webpack --config webpack.config.production.js",
     "dev": "node webpack-dev-server.js",
     "lint": "eslint ./*.js ./**/*.js",
-    "start": "npm run build & node start.js",
-    "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress"
+    "start": "npm run build & node start.js"
   },
   "dependencies": {
     "babel": "^6.5.2",
