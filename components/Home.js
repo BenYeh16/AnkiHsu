@@ -2,9 +2,6 @@ import React from 'react';
 
 export default function Home() {
     return (
-        <div>
-            <h2>Home</h2>
-            <p>Welcome to the site!</p>
-        </div>
+        <div className="W(90%) H(730px) Mt(22px) Mx(a) Bgc(#d8d8d8)"/>
     );
 };

@@ -8,8 +8,8 @@ class Menu extends React.Component {
             <div>
                 <ul className="D(f) List(n) Jc(sb) P(0) My(0) Mx(292px) C(#4a4a4a) Fz(18px)">
                 {
-                    menuTitle.map((item) => 
-                        <li>{item}</li>
+                    menuTitle.map((item, index) => 
+                        <li key={`${item}-${index}`}>{item}</li>
                     )
                 }
                 </ul>
