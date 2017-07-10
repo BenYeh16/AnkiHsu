@@ -6,7 +6,7 @@ class Menu extends React.Component {
 
         return (
             <div>
-                <ul className="D(f) List(n) Jc(sb) P(0) My(0) Mx(292px) C(#4a4a4a) Fz(18px)">
+                <ul className="D(f) List(n) Jc(sb) P(0) My(0) Mx(20%) C(#4a4a4a) Fz(18px)">
                 {
                     menuTitle.map((item, index) => 
                         <li key={`${item}-${index}`}>{item}</li>

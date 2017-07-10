@@ -6,7 +6,7 @@ import SectionDivider from './SectionDivider.jsx';
 
 export default function MainPage() {
     return (
-        <div className="Bgi(headerbackground) Bgpx(50%) Bgpy(0) Bgz(54%) Bgr(nr) Maw(1440px) Mx(a)">
+        <div className="Bgi(headerbackground) Bgpx(50%) Bgpy(0) Bgz(54%) Bgr(nr) Maw(1440px) Miw(1024px) Mx(a)">
             <Header />
             <Menu />
             <Home />
