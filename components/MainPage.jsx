@@ -11,9 +11,15 @@ export default function MainPage() {
             <Header />
             <Menu />
             <Home />
-            <SectionDivider imgUrl="https://ankihsu.com/wp-content/uploads/2017/07/AboutAnki.png" id="about"/>
-            <SectionDivider imgUrl="https://ankihsu.com/wp-content/uploads/2017/07/Service.png" id="service"/>
-            <SectionDivider imgUrl="https://ankihsu.com/wp-content/uploads/2017/07/Reservation.png" id="reservation"/>
+            <div className="W(100%) H(1024px) Bgc(#f7ded1)">
+                <SectionDivider imgUrl="https://ankihsu.com/wp-content/uploads/2017/07/AboutAnki.png" id="about"/>
+            </div>
+            <div className="W(100%) H(1024px) Bgc(w)">
+                <SectionDivider imgUrl="https://ankihsu.com/wp-content/uploads/2017/07/Service.png" id="service"/>
+            </div>
+            <div className="W(100%) H(944px) Bgc(#f7ded1) Mt(70px)">
+                <SectionDivider imgUrl="https://ankihsu.com/wp-content/uploads/2017/07/Reservation.png" id="reservation"/>
+            </div>
             <Footer />
         </div>
     );
