@@ -11,9 +11,9 @@ export default function MainPage() {
             <Header />
             <Menu />
             <Home />
-            <SectionDivider imgUrl="https://ankihsu.com/wp-content/uploads/2017/07/AboutAnki.png" id="About"/>
-            <SectionDivider imgUrl="https://ankihsu.com/wp-content/uploads/2017/07/Service.png" id="Service"/>
-            <SectionDivider imgUrl="https://ankihsu.com/wp-content/uploads/2017/07/Reservation.png" id="Reservation"/>
+            <SectionDivider imgUrl="https://ankihsu.com/wp-content/uploads/2017/07/AboutAnki.png" id="about"/>
+            <SectionDivider imgUrl="https://ankihsu.com/wp-content/uploads/2017/07/Service.png" id="service"/>
+            <SectionDivider imgUrl="https://ankihsu.com/wp-content/uploads/2017/07/Reservation.png" id="reservation"/>
             <Footer />
         </div>
     );
