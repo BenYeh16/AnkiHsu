@@ -1,7 +1,7 @@
 import Home from '../components/Home';
 import MainPage from '../components/MainPage.jsx';
 import About from '../components/About';
-
+import Collection from '../components/Collection.jsx';
 export default {
     home: {
         path: '/',
@@ -15,6 +15,6 @@ export default {
         method: 'get',
         page: 'about',
         title: 'About',
-        handler: About
+        handler: Collection
     }
 };
