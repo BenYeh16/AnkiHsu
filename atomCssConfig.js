@@ -11,7 +11,8 @@ module.exports = {
         },
         custom: {
             '1': '1px solid #000',
-            'headerbackground': 'url(https://ankihsu.com/wp-content/uploads/2017/07/header-background.png)'
+            'headerbackground': 'url(https://ankihsu.com/wp-content/uploads/2017/07/header-background.png)',
+            'aboutankibackground': 'url(https://ankihsu.com/wp-content/uploads/2017/07/AboutAnkiBackground.png)'
         },
         classNames: []
     }

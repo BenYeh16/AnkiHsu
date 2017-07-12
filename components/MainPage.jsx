@@ -11,7 +11,7 @@ export default function MainPage() {
             <Header />
             <Menu />
             <Home />
-            <div className="W(100%) H(1024px) Bgc(#f7ded1)">
+            <div className="W(100%) H(1024px) Bgi(aboutankibackground)">
                 <SectionDivider imgUrl="https://ankihsu.com/wp-content/uploads/2017/07/AboutAnki.png" id="about"/>
             </div>
             <div className="W(100%) H(1024px) Bgc(white)">
