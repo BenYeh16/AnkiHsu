@@ -6,7 +6,7 @@ export default function BlogBlock() {
             <img 
                 className="W(31%) H(280px) Bgc(#cecece) D(ib)"
             />
-            <div className="W(69%) H(280px) Fz(18px) Fl(endgi)">
+            <div className="W(69%) H(280px) Fz(18px) Fl(end)">
                 文章標題
             </div>
         </div>
