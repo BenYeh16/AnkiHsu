@@ -19,11 +19,11 @@ module.exports = [
         url: '/#reservation'
     }, {
         name: '精選作品+',
-        id: '',
+        id: 'collection',
         url: '/collection'
     }, {
         name: 'Blog+',
-        id: '',
+        id: 'blog',
         url: '/blog'   
     }
 ];

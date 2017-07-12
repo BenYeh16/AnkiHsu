@@ -21,7 +21,11 @@ class Menu extends React.Component {
                 <ul className="D(f) List(n) Jc(sb) P(0) My(0) Mx(20%) C(#4a4a4a) Fz(18px)">
                 {
                     menu.map((item, index) => 
-                        <li key={`${item.id}-${index}`}>{item.name}</li>
+                        <li key={`${item.id}-${index}`}>
+                            <a href={item.url}>
+                                {item.name}
+                            </a>
+                        </li>
                     )
                 }
                 </ul>

@@ -2,6 +2,8 @@ import Home from '../components/Home';
 import MainPage from '../components/MainPage.jsx';
 import About from '../components/About';
 import Collection from '../components/Collection.jsx';
+import Blog from '../components/Blog.jsx';
+
 export default {
     home: {
         path: '/',
@@ -10,11 +12,18 @@ export default {
         title: 'Home',
         handler: MainPage
     },
-    about: {
-        path: '/about',
+    collection: {
+        path: '/collection',
         method: 'get',
-        page: 'about',
-        title: 'About',
+        page: 'collection',
+        title: 'Collection',
         handler: Collection
+    },
+    blog: {
+        path: '/blog',
+        method: 'get',
+        page: 'blog',
+        title: 'Blog',
+        handler: Blog
     }
 };
