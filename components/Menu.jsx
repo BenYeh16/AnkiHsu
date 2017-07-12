@@ -22,7 +22,7 @@ class Menu extends React.Component {
                 {
                     menu.map((item, index) => 
                         <li key={`${item.id}-${index}`}>
-                            <a href={item.url}>
+                            <a href={item.url} className="Td(n)">
                                 {item.name}
                             </a>
                         </li>
