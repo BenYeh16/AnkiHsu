@@ -1,7 +1,20 @@
 import React from 'react';
+import { debounce } from 'lodash';
 import menu from '../configs/menu.js';
 
+
 class Menu extends React.Component {
+    constructor() {
+        super();
+
+        this.handleScroll = debounce(this.handleScroll.bind(this), 70);
+    }
+
+    handleScroll() {
+        const sections = document.querySelectorAll('.section');
+        console.log('======== sections', sections);
+    }
+
     render() {
         return (
             <div>

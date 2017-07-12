@@ -7,7 +7,7 @@ export default function SectionDivider(props) {
     } = props;
 
     return (
-        <div id={id} className="Mt(70px) W(100%) H(30px) Pos(r)">
+        <div id={id} className="section Mt(70px) W(100%) H(30px) Pos(r)">
             <div className="W(100%) H(2px) My(14px) Bgc(#895d41) Pos(a)" />
             <img 
                 src={imgUrl}

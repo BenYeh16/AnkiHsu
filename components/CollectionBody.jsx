@@ -1,8 +1,12 @@
 import React from 'react';
+import CollectionBlock from './CollectionBlock.jsx';
 
 export default function CollectionBody() {
     return (
-        <div className="W(71%) Fl(start) H(280px) Ta(c) Lh(280px) Fz(15px) Bgc(#cecece)">
+        <div className="W(73%) Fl(start) H(1280px) Ta(c) Fz(15px)">
+            <CollectionBlock />
+            <CollectionBlock />
+            <CollectionBlock />
         </div>
     )
 }
