@@ -34,7 +34,11 @@ var webpackConfig = {
         ]
     },
     node: {
-        setImmediate: false
+        setImmediate: false,
+        'console': true,
+        fs: 'empty',
+        net: 'empty',
+        tls: 'empty'
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin(),

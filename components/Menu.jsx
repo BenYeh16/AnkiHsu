@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 import { debounce } from 'lodash';
 import menu from '../configs/menu.js';
+import { getPosts } from '../actions/fetchPosts.js';
 
 
 class Menu extends React.Component {
-    constructor() {
+    constructor(props, context) {
         super();
-
+        //console.log('======== context', context);
         this.handleScroll = debounce(this.handleScroll.bind(this), 70);
+        // context.executeAction(getPosts, {});
     }
 
     handleScroll() {
@@ -32,6 +34,11 @@ class Menu extends React.Component {
             </div>
         );
     }
+};
+
+Menu.contextTypes = {
+    getStore: PropTypes.func,
+    executeAction: PropTypes.func
 };
 
 export default Menu;
