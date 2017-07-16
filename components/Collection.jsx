@@ -34,4 +34,5 @@ Collection = connectToStores(Collection, [PostStore], (context, props) => ({
     data: context.getStore(PostStore).getPost('list')
 }));
 
+
 export default Collection;

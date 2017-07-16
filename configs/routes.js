@@ -3,7 +3,7 @@ import MainPage from '../components/MainPage.jsx';
 import About from '../components/About';
 import Collection from '../components/Collection.jsx';
 import Blog from '../components/Blog.jsx';
-import { getPosts } from '../actions/fetchPosts.js';
+import { getPosts, getCategories } from '../actions/fetchPosts.js';
 
 export default {
     home: {
@@ -19,7 +19,7 @@ export default {
         page: 'collection',
         title: 'Collection',
         handler: Collection,
-        action: getPosts
+        action: getCategories
     },
     blog: {
         path: '/blog',

@@ -22,7 +22,7 @@ module.exports = {
             return done && done();
         });
         
-
+        
         // shorthand syntax, buffered response
         /*
         http.get('https://ankihsu.com/wp-json/wp/v2/posts', function (err, res) {
@@ -33,6 +33,22 @@ module.exports = {
 	        console.log(res.code, res.headers, res.buffer.toString());
         });
         */
+    },
+
+    getCategories: function (context, payload, done) {
+        payload = payload || {};
+
+        request('http://ankihsu.com/wp-json/wp/v2/categories', function (error, response, body) {
+            if (error) {
+                console.log('error', error);
+                return done && done();
+            }
+
+            context.dispatch('FETCH_CATEGORY_SUCCESS', JSON.parse(body));
+
+            return done && done();
+        })
     }
+    
 };
 
