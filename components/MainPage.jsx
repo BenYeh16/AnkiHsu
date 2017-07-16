@@ -65,7 +65,7 @@ export default function MainPage() {
                 <div className="Pos(r) D(ib)">
                     <img
                         src='https://ankihsu.com/wp-content/uploads/2017/07/mail.png'
-                        className="Mstart(356px)"
+                        className="Mstart(260px)"
                     />
                     <div className="Mstart(149px) Fz(24px) C(#895d41)"> 
                         ankisophie520@gmail.com
@@ -74,10 +74,10 @@ export default function MainPage() {
                 <div className="Pos(r) D(ib)">
                     <img
                         src='https://ankihsu.com/wp-content/uploads/2017/07/FB-1.png'
-                        className="Mstart(370px)"
+                        className="Mstart(310px)"
                     />
                     <div className="Mstart(149px) Fz(24px) C(#895d41)">
-                        Anki Hsu Makeup & Hair 
+                        Anki Hsu Makeup & Hair \n
                         新娘秘書 整體造型
                     </div> 
                 </div>
