@@ -76,8 +76,8 @@ export default function MainPage() {
                         src='https://ankihsu.com/wp-content/uploads/2017/07/FB-1.png'
                         className="Mstart(310px)"
                     />
-                    <div className="Mstart(149px) Fz(24px) C(#895d41)">
-                        Anki Hsu Makeup & Hair \n
+                    <div className="Mstart(149px) Fz(24px) C(#895d41) W(280px)">
+                        Anki Hsu Makeup & Hair 
                         新娘秘書 整體造型
                     </div> 
                 </div>
