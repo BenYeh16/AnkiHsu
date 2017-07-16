@@ -5,6 +5,9 @@ class PostStore extends BaseStore {
         super(dispatcher);
         this.categoryMap = {};
         this.post = [];
+        this.categoryMapRename = {
+            '精選作品': '全部作品'
+        };
     }
     
     _handlePost(payload) {
@@ -19,7 +22,7 @@ class PostStore extends BaseStore {
     _handleCategories(payload) {
         [].concat(payload).forEach((category) => {
             this.categoryMap[category.id] = {
-                name: category.name,
+                name: this.categoryMapRename[category.name] || category.name,
                 count: category.count,
                 parent: category.parent
             }
@@ -29,6 +32,13 @@ class PostStore extends BaseStore {
             name: 'handleCategoriesSuccess',
             payload: this.categoryMap
         });
+    }
+
+    getCollectionCategories() {
+        return Object.keys(this.categoryMap).filter((key, index) => {
+            const item = this.categoryMap[key];
+            return item.parent === 0 || item.parent === 3;
+        }).map((filteredKey) => this.categoryMap[filteredKey]);
     }
 
     getCategories() {
