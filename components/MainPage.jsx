@@ -34,8 +34,53 @@ export default function MainPage() {
                     className="Mstart(95px) Mt(208px)"
                 />
             </div>
-            <div className="W(100%) H(944px) Bgc(#f7ded1) Mt(70px)">
+            <div className="W(100%) H(700px) Bgc(#f7ded1) Mt(70px)">
                 <SectionDivider imgUrl="https://ankihsu.com/wp-content/uploads/2017/07/Reservation.png" id="reservation"/>
+                <img
+                    src='https://ankihsu.com/wp-content/uploads/2017/07/reservationPlan.png'
+                    className="Pos(a)"
+                />
+                <img 
+                    src='https://ankihsu.com/wp-content/uploads/2017/07/formNormal.png'
+                    className="Mt(494px) Mstart(470px) Pos(a)"
+                />
+            </div>
+            <div 
+                className="W(100%) H(350px)"
+            >
+                <div
+                    className="Mx(a) Mt(25px) Ta(c) Ff(MicrosoftJhengHei) Fz(20px) C(#895d41)"
+                >
+                    聯絡方式
+                </div>
+                <div className="Pos(r) D(ib)">
+                    <img 
+                        src='https://ankihsu.com/wp-content/uploads/2017/07/line.png'
+                        className="Mt(126px) Mstart(267px)"
+                    />
+                    <div className="W(192px) H(36px) Mstart(203px) Fz(24px) C(#895d41)">
+                        Line ID: ankihsu
+                    </div>
+                </div>
+                <div className="Pos(r) D(ib)">
+                    <img
+                        src='https://ankihsu.com/wp-content/uploads/2017/07/mail.png'
+                        className="Mstart(356px)"
+                    />
+                    <div className="Mstart(149px) Fz(24px) C(#895d41)"> 
+                        ankisophie520@gmail.com
+                    </div>
+                </div>
+                <div className="Pos(r) D(ib)">
+                    <img
+                        src='https://ankihsu.com/wp-content/uploads/2017/07/FB-1.png'
+                        className="Mstart(370px)"
+                    />
+                    <div className="Mstart(149px) Fz(24px) C(#895d41)">
+                        Anki Hsu Makeup & Hair 
+                        新娘秘書 整體造型
+                    </div> 
+                </div>
             </div>
             <Footer />
         </div>

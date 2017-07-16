@@ -24,7 +24,13 @@ class Menu extends React.Component {
                 {
                     menu.map((item, index) => 
                         <li key={`${item.id}-${index}`}>
-                            <a href={item.url} className="Td(n)">
+                            <a href={item.url} 
+                               style={{
+                                   'color': 'inherit',
+                                   'font-family': 'Microsoft JhengHei'
+                               }}
+                               className="Td(n)"
+                            >
                                 {item.name}
                             </a>
                         </li>
